@@ -1,5 +1,3 @@
-<!-- Title -->
-<title> Invoices System</title>
 <!-- Favicon -->
 <link rel="icon" href="{{ asset('assets/img/invoice.png') }}" type="image/x-icon"/>
 <!-- Icons css -->
@@ -12,8 +10,8 @@
 <link rel="stylesheet" href="{{URL::asset('assets/css-rtl/sidemenu.css')}}">
 @yield('css')
 <!--- Style css -->
-<link href="{{URL::asset('assets/css-rtl/style.css')}}" rel="stylesheet">
-<!--- Dark-mode css -->
-<link href="{{URL::asset('assets/css-rtl/style-dark.css')}}" rel="stylesheet">
-<!---Skinmodes css-->
-<link href="{{URL::asset('assets/css-rtl/skin-modes.css')}}" rel="stylesheet">
+<link href="{{ asset('assets/css-rtl/style.css') }}" rel="stylesheet">
+{{--<!--- Dark-mode css -->--}}
+{{--<link href="{{URL::asset('assets/css-rtl/style-dark.css')}}" rel="stylesheet">--}}
+{{--<!---Skinmodes css-->--}}
+{{--<link href="{{URL::asset('assets/css-rtl/skin-modes.css')}}" rel="stylesheet">--}}
